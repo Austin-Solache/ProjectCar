@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+    background-color: #c2cbd6;
+    color: #000000;
+}
+nav {
+    position: fixed;
+    top: 0;         
+    z-index: 100;
+    width: 100%;     
+}
+ul {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    align-items: center;
+    list-style: none;
+    border: 5px solid #3E7CB1;
+    background-color: whitesmoke;
+    color: #054A91;
+    font-size: 20px;
+    height: 50px;
+}
+a:visited , a {
+    text-decoration: none;
+    color: #054A91;
+}
+a:hover {
+    font-size: 21px;
+}
+header {
+    display: flex;
+    margin-top: 150px;
+}
+h1 {
+    display: flex;
+    justify-content: flex-start;
+}
+#project {
+    color: #054A91;
+     font-size: 90px;
+}
+#car {
+    color: #3E7CB1;
+     font-size: 90px;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height:75%;
+    width: 45%;
+}
+form , input{
+    font-size: 40px;
+    margin-top: 20px;
+}
+form , label {
+    font-size: 50px;
+    margin-bottom: 25px;
+    color: #054A91;
+}
+#objSubmit  {
+    color:white;
+     color:white;
+    background-color: #3E7CB1;
+    width: 170px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 2px solid #054A91;
+    background-color: whitesmoke;
+    height: 300px;
+    width: 100%;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+}
+#title {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
